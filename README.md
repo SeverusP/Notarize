@@ -1,1 +1,1 @@
-Basic application working locally writes in Solidity and suitable for documents notarization.
+Basic application working locally composed of a part written in Solidity which concerns the development of smart contracts and another written in Javascrpts for some tests.
