@@ -65,10 +65,12 @@ contract Notarize is Ownable, AccessControlEnumerable {
         return (_documents[_num].documentUrl, _documents[_num].documentHash);
     }
 
+    // Recupera il numero di documenti
     function getDocsCount() external view returns(uint256){
         return _documentsCounter.current();
     }
 
+    // Recupero l'hash registrato
     function getRegisteredHash(bytes32 _hash) external view returns(bool) {
         return _registerHash[_hash];
     }
